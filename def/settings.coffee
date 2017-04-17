@@ -60,16 +60,6 @@ Settings:
   ]
   settings: {
     notes: [
-      {
-        id: 'core-settings-note'
-        html: 'These are Atom's core settings which affect behavior unrelated to text editing. Individual packages may have their 
-        wn additional settings found within their package card in the <a class="link packages-open">Packages list</a>.'
-      }
-      {
-        id: 'editor-settings-note'
-        html: 'These are Atom's core settings which affect behavior unrelated to text editing. Individual packages may have their 
-        wn additional settings found within their package card in the <a class="link packages-open">Packages list</a>.'
-      }
     ]
     controls: [
     ]
