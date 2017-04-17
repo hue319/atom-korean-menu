@@ -53,7 +53,7 @@ Context:
   ".tree-view.full-menu":
     "tree-view:add-file": "새파일"
     "tree-view:add-folder": "새폴더"
-    "tree-view:move": "이동・이름바꾸기..."
+    "tree-view:move": "이동・이름바꾸기…"
     "tree-view:duplicate": "복제"
     "tree-view:remove": "지우기"
     "tree-view:copy": "복사"
@@ -63,7 +63,7 @@ Context:
     "tree-view:open-selected-entry-down": "창나누기 ↓"
     "tree-view:open-selected-entry-left": "창나누기 ←"
     "tree-view:open-selected-entry-right": "창나누기 →"
-    "application:add-project-folder": "프로젝트폴더추가..."
+    "application:add-project-folder": "프로젝트폴더추가…"
     "tree-view:copy-full-path": "전체경로복사"
     "tree-view:copy-project-path": "프로젝트경로복사"
     "tree-view:open-in-new-window": "새창으로열기"
@@ -75,7 +75,7 @@ Context:
   ".tree-view.full-menu .project-root > .header":
     "tree-view:add-file": "새파일"
     "tree-view:add-folder": "새폴더"
-    "tree-view:move": "이동・이름바꾸기..."
+    "tree-view:move": "이동・이름바꾸기…"
     "tree-view:duplicate": "복제"
     "tree-view:remove": "지우기"
     "tree-view:copy": "복사"
@@ -85,7 +85,7 @@ Context:
     "tree-view:open-selected-entry-down": "창나누기 ↓"
     "tree-view:open-selected-entry-left": "창나누기 ←"
     "tree-view:open-selected-entry-right": "창나누기 →"
-    "application:add-project-folder": "프로젝트폴더추가..."
+    "application:add-project-folder": "프로젝트폴더추가…"
     "tree-view:remove-project-folder": "프로젝트폴더지우기"
     "tree-view:copy-full-path": "전체경로복사"
     "tree-view:copy-project-path": "프로젝트경로복사"
@@ -106,7 +106,7 @@ Context:
   "atom-pane[data-active-item-path] .item-views":
     "tree-view:reveal-active-file": "트리보기에표시"
   "atom-pane[data-active-item-path] .tab.active":
-    "tree-view:rename": "이동・이름바꾸기..."
+    "tree-view:rename": "이동・이름바꾸기…"
     "tree-view:reveal-active-file": "트리보기에표시"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
     "tree-view:show-current-file-in-file-manager": "Finder.."

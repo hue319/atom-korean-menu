@@ -1,309 +1,309 @@
 module.exports = {
 Menu:
   "&File":
-    value: "ファイル(&F)"
+    value: "파일(&F)"
     submenu:
       "New &Window":
-        value: "新規ウインドウ(&W)"
+        value: "새창(&W)"
       "&New File":
-        value: "新規ファイル(&N)"
+        value: "새파일(&N)"
       "&Open File…":
-        value: "開く(&O)..."
+        value: "열기(&O)…"
       "Open Folder…":
-        value: "フォルダを開く..."
+        value: "폴더열기…"
       "Add Project Folder…":
-        value: "プロジェクトフォルダを追加..."
+        value: "프로젝트 폴더추가…"
       "Reopen Project":
-        value: "プロジェクト履歴から開く"
+        value: "프로젝트 다시열기"
         submenu:
           "Clear Project History":
-            value: "プロジェクト履歴をクリア"
+            value: "프로젝트 기록지우기"
       "Reopen Last &Item":
-        value: "最後に使用したファイルを開く(&I)"
+        value: "마지막 파일 다시열기(&I)"
       "Se&ttings":
-        value: "環境設定(&T)..."
+        value: "설정(&T)…"
       "Config…":
-        value: "個人設定..."
+        value: "개인설정…"
       "Init Script…":
-        value: "起動スクリプト..."
+        value: "시작스크립트…"
       "Keymap…":
-        value: "キーマップ..."
+        value: "키맵…"
       "Snippets…":
-        value: "スニペット..."
+        value: "스니펫…"
       "Stylesheet…":
-        value: "スタイルシート..."
+        value: "스타일시트…"
       "&Save":
-        value: "保存(&S)"
+        value: "저장(&S)"
       "Save &As…":
-        value: "別名で保存(&A)..."
+        value: "다른이름으로 저장(&A)…"
       "Save A&ll":
-        value: "すべて保存(&L)"
+        value: "모두저장(&L)"
       "&Close Tab":
-        value: "タブを閉じる(&C)"
+        value: "탭닫기(&C)"
       "Close &Pane":
-        value: "ペインを閉じる(&P)"
+        value: "창 닫기(&P)"
       "Clos&e Window":
-        value: "ウインドウを閉じる(&E)"
+        value: "창 닫기(&E)"
       "E&xit":
-        value: "終了(&X)"
+        value: "끄기(&X)"
       "Close All Tabs":
-        value: "タブをすべて閉じる"
+        value: "모든 탭 닫기"
   "&Edit":
-    value: "編集(&E)"
+    value: "편집(&E)"
     submenu:
       "&Undo":
-        value: "取り消す(&U)"
+        value: "되돌리기(&U)"
       "&Redo":
-        value: "やり直す(&R)"
+        value: "다시실행(&R)"
       "Cu&t":
-        value: "カット(&T)"
+        value: "잘라내기(&T)"
       "&Copy":
-        value: "コピー(&C)"
+        value: "복사(&C)"
       "Copy Pat&h":
-        value: "パスをコピー(&H)"
+        value: "경로복사(&H)"
       "&Paste":
-        value: "ペースト(&P)"
+        value: "붙여넣기(&P)"
       "Select &All":
-        value: "すべて選択(&A)"
+        value: "모두선택(&A)"
       "&Toggle Comments":
-        value: "コメントの切替(&T)"
+        value: "주석 보이기/끄기(&T)"
       Lines:
         value: "行"
         submenu:
           "&Indent":
-            value: "インデントを追加(&I)"
+            value: "들여쓰기(&I)"
           "&Outdent":
-            value: "インデントを戻す(&O)"
+            value: "내어쓰기(&O)"
           "&Auto Indent":
-            value: "自動インデント(&A)"
+            value: "자동 줄 맞춤(&A)"
           "Move Line &Up":
-            value: "選択中の行を上に移動(&U)"
+            value: "위로(&U)"
           "Move Line &Down":
-            value: "選択中の行を下に移動(&D)"
+            value: "아래로(&D)"
           "Du&plicate Lines":
-            value: "行を複製(&P)"
+            value: "줄 복제(&P)"
           "D&elete Line":
-            value: "行を削除(&E)"
+            value: "줄 삭제(&E)"
           "&Join Lines":
-            value: "行を結合(&J)"
+            value: "합치기(&J)"
       Columns:
-        value: "列"
+        value: "열"
         submenu:
           "Move Selection &Left":
-            value: "選択範囲を左に移動(&L)"
+            value: "왼쪽으로(&L)"
           "Move Selection &Right":
-            value: "選択範囲を右に移動(&R)"
+            value: "오른쪽으로(&R)"
       Text:
-        value: "テキスト"
+        value: "텍스트"
         submenu:
           "&Upper Case":
-            value: "大文字に変換(&U)"
+            value: "대문자(&U)"
           "&Lower Case":
-            value: "小文字に変換(&L)"
+            value: "소문자(&L)"
           "Delete to End of &Word":
-            value: "単語の末尾まで削除(&W)"
+            value: "단어지우기(&W)"
           "Delete to Previous Word Boundary":
-            value: "前の単語の境界まで削除"
+            value: "이전단어까지"
           "Delete to Next Word Boundary":
-            value: "次の単語の境界まで削除"
+            value: "다음단어까지"
           "&Delete Line":
-            value: "行を削除(&D)"
+            value: "줄 지우기(&D)"
           "&Transpose":
-            value: "前後を入れ替え(&T)"
+            value: "위치 바꾸기(&T)"
       Folding:
-        value: "折りたたみ"
+        value: "접기/펼치기"
         submenu:
           "&Fold":
-            value: "折りたたむ(&F)"
+            value: "접기(&F)"
           "&Unfold":
-            value: "折りたたみを戻す(&U)"
+            value: "펼치기(&U)"
           "Unfold &All":
-            value: "すべての折りたたみを戻す(&A)"
+            value: "모두 펼치기(&A)"
           "Fol&d All":
-            value: "すべて折りたたむ(&D)"
+            value: "모두접기(&D)"
           "Fold Level 1":
-            value: "1段階折りたたむ"
+            value: "1단 접기"
           "Fold Level 2":
-            value: "2段階折りたたむ"
+            value: "2단 접기"
           "Fold Level 3":
-            value: "3段階折りたたむ"
+            value: "3단 접기"
           "Fold Level 4":
-            value: "4段階折りたたむ"
+            value: "4단 접기"
           "Fold Level 5":
-            value: "5段階折りたたむ"
+            value: "5단 접기"
           "Fold Level 6":
-            value: "6段階折りたたむ"
+            value: "6단 접기"
           "Fold Level 7":
-            value: "7段階折りたたむ"
+            value: "7단 접기"
           "Fold Level 8":
-            value: "8段階折りたたむ"
+            value: "8단 접기"
           "Fold Level 9":
-            value: "9段階折りたたむ"
+            value: "9단 접기"
       "Reflow Selection":
-        value: "選択範囲をリフロー"
+        value: "선택 Reflow"
       Bookmark:
-        value: "ブックマーク"
+        value: "책갈피"
         submenu:
           "View All":
-            value: "すべて表示"
+            value: "모두보기"
           "Toggle Bookmark":
-            value: "ブックマークの切替"
+            value: "책갈피 보기/숨기기"
           "Jump to Next Bookmark":
-            value: "次のブックマークへ"
+            value: "다음 책갈피"
           "Jump to Previous Bookmark":
-            value: "前のブックマークへ"
+            value: "이전 책갈피"
       "Select Encoding":
-        value: "エンコーディング選択"
+        value: "인코딩"
       "Go to Line":
-        value: "指定行に移動"
+        value: "줄로 가기"
       "Select Grammar":
-        value: "文法を選択"
+        value: "문법"
   "&View":
-    value: "表示(&V)"
+    value: "보기(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "フルスクリーン切替(&F)"
+        value: "전체화면(&F)"
       "Toggle Menu Bar":
-        value: "メニューバー切替"
+        value: "메뉴"
       Panes:
-        value: "ペイン"
+        value: "창"
         submenu:
           "Split Up":
-            value: "ペイン分割 ↑"
+            value: "나누기 ↑"
           "Split Down":
-            value: "ペイン分割 ↓"
+            value: "나누기 ↓"
           "Split Left":
-            value: "ペイン分割 ←"
+            value: "나누기 ←"
           "Split Right":
-            value: "ペイン分割 →"
+            value: "나누기 →"
           "Focus Next Pane":
-            value: "次のペインにフォーカス"
+            value: "이전창 촛점"
           "Focus Previous Pane":
-            value: "前のペインにフォーカス"
+            value: "다음창 촛점"
           "Focus Pane Above":
-            value: "ペインにフォーカス ↑"
+            value: "창 촛점 ↑"
           "Focus Pane Below":
-            value: "ペインにフォーカス ↓"
+            value: "창 촛점 ↓"
           "Focus Pane On Left":
-            value: "ペインにフォーカス ←"
+            value: "창 촛점 ←"
           "Focus Pane On Right":
-            value: "ペインにフォーカス →"
+            value: "창 촛점 →"
           "Close Pane":
-            value: "ペインを閉じる"
+            value: "창 닫기"
       Developer:
-        value: "開発"
+        value: "개발"
         submenu:
           "Open In &Dev Mode…":
-            value: "開発モードで開く(&D)"
+            value: "개발자모드로 열기(&D)"
           "&Reload Window":
-            value: "ウィンドウの再読み込み(&R)"
+            value: "새로고침(&R)"
           "Run Package &Specs":
-            value: "パッケージスペックを実行(&S)"
+            value: "패키지스펙 실행(&S)"
           "Toggle Developer &Tools":
-            value: "デベロッパー ツール(&T)"
+            value: "개발도구 실행(&T)"
       "&Increase Font Size":
-        value: "フォントサイズの拡大"
+        value: "글꼴크게"
       "&Decrease Font Size":
-        value: "フォントサイズの縮小"
+        value: "글꼴작게"
       "Re&set Font Size":
-        value: "フォントサイズのリセット"
+        value: "원래크기"
       "Toggle Soft &Wrap":
-        value: "自動折り返しの切替(&W)"
+        value: "소프트랩(&W)"
       "Toggle Command Palette":
-        value: "コマンドパレット"
+        value: "명령팔레트"
       "Toggle Tree View":
-        value: "ツリービュー"
+        value: "트리"
       "Toggle Tool Bar":
-        value: "ツールバー"
+        value: "보기/숨기기"
   "&Selection":
-    value: "選択(&S)"
+    value: "선택(&S)"
     submenu:
       "Add Selection &Above":
-        value: "選択範囲を広げる ↑(&A)"
+        value: "늘리기 ↑(&A)"
       "Add Selection &Below":
-        value: "選択範囲を広げる ↓(&B)"
+        value: "늘리기 ↓(&B)"
       "S&plit into Lines":
-        value: "選択範囲を各行に分割して同時操作(&P)"
+        value: "줄 나누기(&P)"
       "Single Selection":
-        value: "同時操作状態を解除"
+        value: "동시작업 해제"
       "Select to &Top":
-        value: "ファイル先頭まで選択(&T)"
+        value: "맨위까지(&T)"
       "Select to Botto&m":
-        value: "ファイル末尾まで選択(&M)"
+        value: "맨아래까지(&M)"
       "Select &Line":
-        value: "行を選択(&L)"
+        value: "줄선택(&L)"
       "Select &Word":
-        value: "単語を選択(&W)"
+        value: "단어선택(&W)"
       "Select to Beginning of W&ord":
-        value: "単語の先頭まで選択(&O)"
+        value: "단어 처음까지(&O)"
       "Select to Beginning of L&ine":
-        value: "行頭まで選択(&I)"
+        value: "줄 처음까지(&I)"
       "Select to First &Character of Line":
-        value: "行の最初の文字まで選択(&C)"
+        value: "첫글자 부터(&C)"
       "Select to End of Wor&d":
-        value: "単語の末尾まで選択(&D)"
+        value: "단어 끝까지(&D)"
       "Select to End of Lin&e":
-        value: "行末まで選択(&E)"
+        value: "줄 끝까지(&E)"
       "Select Inside Brackets":
-        value: "カッコ内を選択"
+        value: "괄호선택"
   "F&ind":
-    value: "検索(&I)"
+    value: "찾기(&I)"
     submenu:
       "Find in Buffer":
-        value: "検索..."
+        value: "찾기…"
       "Replace in Buffer":
-        value: "置換..."
+        value: "바꾸기…"
       "Select Next":
-        value: "次の一致も選択"
+        value: "다음 선택"
       "Select All":
-        value: "一致をすべて選択"
+        value: "모두 선택"
       "Toggle Find in Buffer":
-        value: "検索パネル切替"
+        value: "버퍼에서 찾기"
       "Find in Project":
-        value: "プロジェクト内検索..."
+        value: "프로젝트에서 찾기…"
       "Toggle Find in Project":
-        value: "プロジェクト内検索パネル切替"
+        value: "프로젝트에서 찾기 토글"
       "Find All":
-        value: "すべて検索"
+        value: "모두찾기"
       "Find Next":
-        value: "次を検索"
+        value: "다음찾기"
       "Find Previous":
-        value: "前を検索"
+        value: "이전찾기"
       "Replace Next":
-        value: "次を置換"
+        value: "다음바꾸기"
       "Replace All":
-        value: "すべて置換"
+        value: "모두바꾸기"
       "Clear History":
-        value: "履歴をクリア"
+        value: "기록지우기"
       "Find Buffer":
-        value: "バッファを検索"
+        value: "버퍼 찾기"
       "Find File":
-        value: "ファイルを検索"
+        value: "파일 찾기"
       "Find Modified File":
-        value: "修正されたファイルを検索"
+        value: "바뀐 파일 찾기"
   "&Packages":
-    value: "パッケージ(&P)"
+    value: "패키지(&P)"
   "&Help":
-    value: "ヘルプ(&H)"
+    value: "도움말(&H)"
     submenu:
       "View &Terms of Use":
-        value: "利用条件"
+        value: "이용약관"
       "View &License":
-        value: "ライセンス"
+        value: "라이선스"
       "&Documentation":
-        value: "ドキュメント(&D)"
+        value: "문서(&D)"
       Roadmap:
-        value: "ロードマップ"
+        value: "로드맵"
       "Frequently Asked Questions":
-        value: "よくあるご質問"
+        value: "자주 뭍는 질문"
       "Community Discussions":
-        value: "コミュニティ ディスカッション"
+        value: "커뮤니티/토론"
       "Report Issue":
-        value: "問題の報告"
+        value: "버그 리프트"
       "Search Issues":
-        value: "報告されている問題"
+        value: "알려진 버그"
       "About Atom":
-        value: "Atom について"
+        value: "Atom에 관하여"
       "Welcome Guide":
-        value: "ウェルカムガイド"
+        value: "환영합니다"
 }
