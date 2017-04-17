@@ -1,0 +1,21 @@
+{
+  "name": "korean-menu",
+  "main": "./lib/main",
+  "version": "1.16.0",
+  "description": "Atom 에디터 한글메뉴",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hue319/atom-korean-menu"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# Atom - Korean Menu\n\nAtom 한글메뉴\n\n![screenshot](https://github.com/hue319/atom-korean-menu/raw/master/screenshot.png)\n\n![screenshot](https://github.com/hue319/atom-korean-menu/raw/master/screenshot2.png)\n\n![screenshot](https://github.com/hue319/atom-korean-menu/raw/master/screenshot3.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/hue319/atom-korean-menu/issues"
+  },
+  "homepage": "https://github.com/hue319/atom-korean-menu"
+}
