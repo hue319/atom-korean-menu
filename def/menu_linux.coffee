@@ -4,13 +4,13 @@ Menu:
     value: "파일(&F)"
     submenu:
       "New &Window":
-        value: "새창(&W)"
+        value: "새 창(&W)"
       "&New File":
-        value: "새파일(&N)"
+        value: "만들기(&N)"
       "&Open File…":
         value: "열기(&O)…"
       "Open Folder…":
-        value: "폴더열기…"
+        value: "폴더 열기…"
       "Add Project Folder…":
         value: "프로젝트폴더 추가…"
       "Reopen Project":
@@ -29,7 +29,7 @@ Menu:
       "&Close Tab":
         value: "탭닫기(&C)"
       "Close &Pane":
-        value: "창닫기(&P)"
+        value: "나눔창 닫기(&P)"
       "Clos&e Window":
         value: "창닫기(&E)"
       "Quit":
@@ -63,11 +63,11 @@ Menu:
           "&Outdent":
             value: "내어쓰기(&O)"
           "&Auto Indent":
-            value: "자동줄맞춤(&A)"
+            value: "자동 들여쓰기(&A)"
           "Move Line &Up":
-            value: "한줄위로(&U)"
+            value: "한줄 위로(&U)"
           "Move Line &Down":
-            value: "한줄아래로(&D)"
+            value: "한줄 아래로(&D)"
           "Du&plicate Lines":
             value: "복제(&P)"
           "D&elete Line":
@@ -89,7 +89,7 @@ Menu:
           "&Lower Case":
             value: "소문자(&L)"
           "Delete to End of &Word":
-            value: "단어지우기(&W)"
+            value: "단어 지우기(&W)"
           "Delete to Previous Word Boundary":
             value: "앞단어 지우기"
           "Delete to Next Word Boundary":
@@ -99,7 +99,7 @@ Menu:
           "&Transpose":
             value: "위치바꿈(&T)"
       Folding:
-        value: "접기"
+        value: "접기/펼치기"
         submenu:
           "&Fold":
             value: "접기(&F)"
@@ -110,23 +110,23 @@ Menu:
           "Fol&d All":
             value: "모두 접기(&D)"
           "Fold Level 1":
-            value: "1단접기"
+            value: "1단 접기"
           "Fold Level 2":
-            value: "2단접기"
+            value: "2단 접기"
           "Fold Level 3":
-            value: "3단접기"
+            value: "3단 접기"
           "Fold Level 4":
-            value: "4단접기"
+            value: "4단 접기"
           "Fold Level 5":
-            value: "5단접기"
+            value: "5단 접기"
           "Fold Level 6":
-            value: "6단접기"
+            value: "6단 접기"
           "Fold Level 7":
-            value: "7단접기"
+            value: "7단 접기"
           "Fold Level 8":
-            value: "8단접기"
+            value: "8단 접기"
           "Fold Level 9":
-            value: "9단접기"
+            value: "9단 접기"
       "&Preferences":
         value: "환경설정(&P)…"
       "Config…":
@@ -153,20 +153,20 @@ Menu:
           "Jump to Previous Bookmark":
             value: "이전 책갈피"
       "Select Encoding":
-        value: "인코딩 선택"
+        value: "인코딩"
       "Go to Line":
-        value: "줄로 이동"
+        value: "줄로 가기"
       "Select Grammar":
-        value: "문법선택"
+        value: "문법"
   "&View":
     value: "보기(&V)"
     submenu:
       "Toggle &Full Screen":
         value: "전체화면(&F)"
       "Toggle Menu Bar":
-        value: "메뉴바"
+        value: "메뉴"
       Panes:
-        value: "창"
+        value: "창나눔"
         submenu:
           "Split Up":
             value: "창나누기 ↑"
@@ -181,15 +181,15 @@ Menu:
           "Focus Previous Pane":
             value: "앞창에 촛점"
           "Focus Pane Above":
-            value: "창촛점 ↑"
+            value: "촛점 ↑"
           "Focus Pane Below":
-            value: "창촛점 ↓"
+            value: "촛점 ↓"
           "Focus Pane On Left":
-            value: "창촛점 ←"
+            value: "촛점 ←"
           "Focus Pane On Right":
-            value: "창촛점 →"
+            value: "촛점 →"
           "Close Pane":
-            value: "창닫기"
+            value: "닫기"
       Developer:
         value: "개발"
         submenu:
@@ -212,7 +212,7 @@ Menu:
       "Toggle Command Palette":
         value: "명령팔레트"
       "Toggle Tree View":
-        value: "트리 뷰"
+        value: "트리"
   "&Selection":
     value: "선택(&S)"
     submenu:
@@ -221,7 +221,7 @@ Menu:
       "Add Selection &Below":
         value: "늘리기 ↓(&B)"
       "S&plit into Lines":
-        value: "선택 줄 나누기(&P)"
+        value: "줄로 나누기(&P)"
       "Single Selection":
         value: "동시작업 해제"
       "Select to &Top":
@@ -229,19 +229,19 @@ Menu:
       "Select to Botto&m":
         value: "맨아래까지(&M)"
       "Select &Line":
-        value: "줄선택(&L)"
+        value: "줄 선택(&L)"
       "Select &Word":
-        value: "단어선택(&W)"
+        value: "단어 선택(&W)"
       "Select to Beginning of W&ord":
         value: "단어의 처음까지(&O)"
       "Select to Beginning of L&ine":
         value: "단어의 끝까지(&I)"
       "Select to First &Character of Line":
-        value: "해당줄의 첫글자까지(&C)"
+        value: "첫글자까지(&C)"
       "Select to End of Wor&d":
         value: "단어의 마지막까지(&D)"
       "Select to End of Lin&e":
-        value: "줄 끝까지(&E)"
+        value: "끝까지(&E)"
       "Select Inside Brackets":
         value: "괄호선택"
   "F&ind":
@@ -287,7 +287,7 @@ Menu:
       "View &Terms of Use":
         value: "이용약관(&T)"
       "View &License":
-        value: "라이선스 보기(&L)"
+        value: "라이선스(&L)"
       "&Documentation":
         value: "문서(&D)"
       Roadmap:
@@ -295,7 +295,7 @@ Menu:
       "Frequently Asked Questions":
         value: "자주 묻는 질문"
       "Community Discussions":
-        value: "커뮤니티 토론"
+        value: "커뮤니티/토론"
       "Report Issue":
         value: "버그 리포트"
       "Search Issues":
