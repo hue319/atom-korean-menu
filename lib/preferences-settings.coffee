@@ -51,11 +51,11 @@ class PreferencesSettings
   @localizeKeybindingsPanel: () =>
     info = @sv.querySelector('.keybinding-panel>div:nth-child(2)')
     unless PU.isAlreadyLocalized(info)
-      info.querySelector('span:nth-child(2)').textContent = "키 바인딩"
-      info.querySelector('span:nth-child(4)').textContent = "클릭하여 복사"
-      info.querySelector('a.link').textContent = "키맵 파일"
+      info.querySelector('span:nth-child(2)').textContent = "키바인딩 "
+      info.querySelector('span:nth-child(4)').textContent = "클릭하여 복사하여 "
+      info.querySelector('a.link').textContent = " 키맵파일"
       span = document.createElement('span')
-      span.textContent = "붙여넣기 또는 취소 할 수 있습니다."
+      span.textContent = "을 붙여넣기 할 수 있습니다."
       info.appendChild(span)
       info.setAttribute('data-localized', 'true')
 

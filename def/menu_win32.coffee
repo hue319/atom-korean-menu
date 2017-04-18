@@ -202,11 +202,11 @@ Menu:
           "Toggle Developer &Tools":
             value: "개발도구실행(&T)"
       "&Increase Font Size":
-        value: "글꼴크게(&I)"
+        value: "글꼴크게"
       "&Decrease Font Size":
-        value: "글꼴작게(&D)"
+        value: "글꼴작게"
       "Re&set Font Size":
-        value: "원래크기(&s)"
+        value: "기본같"
       "Toggle Soft &Wrap":
         value: "소프트랩(&W)"
       "Toggle Command Palette":
@@ -223,7 +223,7 @@ Menu:
       "S&plit into Lines":
         value: "줄로 나누기(&P)"
       "Single Selection":
-        value: "동시작업 해제"
+        value: "버퍼 해제"
       "Select to &Top":
         value: "맨위까지(&T)"
       "Select to Botto&m":
@@ -278,7 +278,7 @@ Menu:
       "Find File":
         value: "파일 찾기"
       "Find Modified File":
-        value: "바뀐파일 찾기"
+        value: "바뀐 파일 찾기"
   "&Packages":
     value: "패키지(&P)"
   "&Help":

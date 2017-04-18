@@ -12,7 +12,7 @@ Menu:
       "Open Folder…":
         value: "폴더 열기…"
       "Add Project Folder…":
-        value: "프로젝트폴더 추가…"
+        value: "프로젝트 폴더 추가…"
       "Reopen Project":
         value: "프로젝트 다시열기"
         submenu:
@@ -29,13 +29,13 @@ Menu:
       "&Close Tab":
         value: "탭닫기(&C)"
       "Close &Pane":
-        value: "나눔창 닫기(&P)"
+        value: "나눈 창 닫기(&P)"
       "Clos&e Window":
         value: "창닫기(&E)"
       "Quit":
         value: "끄기"
       "Close All Tabs":
-        value: "모든 탭닫기"
+        value: "모든 탭 닫기"
   "&Edit":
     value: "편집(&E)"
     submenu:
@@ -48,13 +48,13 @@ Menu:
       "C&opy":
         value: "복사(&O)"
       "Copy Pat&h":
-        value: "경로복사(&H)"
+        value: "경로 복사(&H)"
       "&Paste":
         value: "붙여넣기(&P)"
       "Select &All":
         value: "전체선택(&A)"
       "&Toggle Comments":
-        value: "주석 보기/끄기(&T)"
+        value: "주석 보기(&T)"
       Lines:
         value: "줄"
         submenu:
@@ -91,9 +91,9 @@ Menu:
           "Delete to End of &Word":
             value: "단어 지우기(&W)"
           "Delete to Previous Word Boundary":
-            value: "앞단어 지우기"
+            value: "앞 단어 지우기"
           "Delete to Next Word Boundary":
-            value: "뒷단어 지우기"
+            value: "뒷 단어 지우기"
           "&Delete Line":
             value: "줄 지우기(&D)"
           "&Transpose":
@@ -132,7 +132,7 @@ Menu:
       "Config…":
         value: "개인설정…"
       "Init Script…":
-        value: "시작스크립트…"
+        value: "시작 스크립트…"
       "Keymap…":
         value: "키맵…"
       "Snippets…":
@@ -147,7 +147,7 @@ Menu:
           "View All":
             value: "모두보기"
           "Toggle Bookmark":
-            value: "책갈피 토글"
+            value: "책갈피"
           "Jump to Next Bookmark":
             value: "다음 책갈피"
           "Jump to Previous Bookmark":
@@ -155,7 +155,7 @@ Menu:
       "Select Encoding":
         value: "인코딩"
       "Go to Line":
-        value: "줄로 가기"
+        value: "줄 바로가기"
       "Select Grammar":
         value: "문법"
   "&View":
@@ -166,20 +166,20 @@ Menu:
       "Toggle Menu Bar":
         value: "메뉴"
       Panes:
-        value: "창나눔"
+        value: "창 나눔"
         submenu:
           "Split Up":
-            value: "창나누기 ↑"
+            value: "나누기 ↑"
           "Split Down":
-            value: "창나누기 ↓"
+            value: "나누기 ↓"
           "Split Left":
-            value: "창나누기 ←"
+            value: "나누기 ←"
           "Split Right":
-            value: "창나누기 →"
+            value: "나누기 →"
           "Focus Next Pane":
-            value: "다음창에 촛점"
+            value: "다음 창에 촛점"
           "Focus Previous Pane":
-            value: "앞창에 촛점"
+            value: "앞 창에 촛점"
           "Focus Pane Above":
             value: "촛점 ↑"
           "Focus Pane Below":
@@ -202,11 +202,11 @@ Menu:
           "Toggle Developer &Tools":
             value: "개발도구실행(&T)"
       "&Increase Font Size":
-        value: "글꼴크게(&I)"
+        value: "글꼴크게"
       "&Decrease Font Size":
-        value: "글꼴작게(&D)"
+        value: "글꼴작게"
       "Re&set Font Size":
-        value: "원래크기(&s)"
+        value: "기본값"
       "Toggle Soft &Wrap":
         value: "소프트랩(&W)"
       "Toggle Command Palette":
@@ -223,7 +223,7 @@ Menu:
       "S&plit into Lines":
         value: "줄로 나누기(&P)"
       "Single Selection":
-        value: "동시작업 해제"
+        value: "버퍼 해제"
       "Select to &Top":
         value: "맨위까지(&T)"
       "Select to Botto&m":
@@ -256,11 +256,11 @@ Menu:
       "Select All":
         value: "모두선택"
       "Toggle Find in Buffer":
-        value: "찾기 토글"
+        value: "버퍼에서 찾기"
       "Find in Project":
         value: "프로젝트에서…"
       "Toggle Find in Project":
-        value: "프로젝트에서 찾기 토글"
+        value: "프로젝트에서 찾기"
       "Find All":
         value: "모두 찾기"
       "Find Next":
@@ -278,9 +278,152 @@ Menu:
       "Find File":
         value: "파일 찾기"
       "Find Modified File":
-        value: "바뀐파일 찾기"
+        value: "바뀐 파일 찾기"
   "&Packages":
     value: "패키지(&P)"
+    submenu:
+      "Bracket Matcher":
+        value: "괄호 짝 맞춤"
+        submenu:
+          "Go To Matching Bracket":
+            value: "짝 찾기"
+          "Select Inside Brackets":
+            value: "괄호 내부 선택"
+          "Remove Brackets From Selection":
+            value: "선택에서 괄호블럭 지우기"
+          "Close Current Tag":
+            value: "태그 닫기"
+          "Remove Matching Brackets":
+            value: "해당 괄호블럭 지우기"
+      "Command Palette":
+        value: "명령 팔레트"
+        submenu: 
+          "Toggle":
+            value: "토글"
+      "Dev Live Reload":
+        value: "개발 새로고침"
+        submenu:
+          "Reload All Styles":
+            value: "모든 스타일 새로고침"
+      "Git Diff":
+        value: "Git 변경사항"
+        submenu:
+          "Move to Next Diff":
+            value: "다음"
+          "Move to Previous Diff":
+            value: "이전"
+          "Toggle Diff List":
+            value: "변경내역 토글"
+      "Keybinding Resolver":
+        value: "키바인딩 Resolver"
+        submenu:
+          "Toggle":
+            value: "토글"
+      "Markdown Preview":
+        value: "마크다운 미리보기"
+        submenu:
+          "Toggle Preview":
+            value: "미리보기 토글"
+      "Open On GitHub":
+        value: "GitHub에서 열기"
+        submenu:
+          "Blame":
+            value: "비난"
+          "Branch Compare":
+            value: "브랜치 비교"
+          "Copy URL":
+            value: "URL 복사"
+          "File":
+            value: "파일"
+          "File on Master":
+            value: "마스터의 파일"
+          "History":
+            value: "변경내역"
+          "Issues":
+            value: "이슈"
+          "Repository":
+            value: "저장소"
+      "Package Generator":
+        value: "패키지 만들기"
+        submenu:
+          "Generate Atom Package":
+            value: "Atom 패키지 만들기"
+          "Generate Atom Syntax Theme":
+            value: "Atome 테마 만들기"
+      "Settings View":
+        value: "설정 보기"
+        submenu:
+          "Open":
+            value: "열기"
+          "Show Keybindings":
+            value: "키바인딩 보기"
+          "Install Packages/Themes":
+            value: "패키지/테마 설치"
+          "Update Packages/Themes":
+            value: "패키지/테마 업데이트"
+          "Manage Packages":
+            value: "패키지 관리"
+          "Manage Themes":
+            value: "테마 관리"
+      "Snippets":
+        value: "스니펫"
+        submenu:
+          "Expand":
+            value: "확장"
+          "Next Stop":
+            value: "다음에 멈춤"
+          "Previous Stop":
+            value: "앞에서 멈춤"
+          "Available":
+            value: "사용가능"
+      "Spell Check":
+        value: "문법 검사기"
+        submenu:
+          "Toggle":
+            value: "토글"
+      "Styleguide":
+        value:"스타일 안내"
+        submenu:
+          "Show":
+            value: "보기"
+      "Symbols":
+        value:"심볼"
+        submenu:
+          "File Symbols":
+            value: "파일 심볼"
+          "Project Symbols":
+            value: "프로젝트 심볼"
+      "Timecop":
+        value: "시간표시"
+        submenu:
+          "Show":
+            value: "보기"
+      "Tree View":
+        value: "트리"
+        submenu:
+          "Focus":
+            value: "초점"
+          "Toggle":
+            value: "토글"
+          "Reveal Active File":
+            value: "활성 파일 나타내기"
+          "Toggle Tree Side":
+            value: "트리 왼쪽/오른쪽"
+      "Whitespace":
+        value: "빈칸"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "연속된 빈칸 지우기"
+          "Save With Trailing Whitespace":
+            value: "연속된 빈칸 허용 저장"
+          "Save Without Trailing Whitespace":
+            value: "연속된 빈칸 없이 저장"
+          "Convert Taps To Spaces":
+            value: "탭을 스페이스로 바꾸기"
+          "Convert Spaces To Taps":
+            value: "스페이스를 탭으로 바꾸기"
+          "Convert All Taps To Spaces":
+            value: "모든 탭을 스페이스로 바꾸기"
   "&Help":
     value: "도움말(&H)"
     submenu:
