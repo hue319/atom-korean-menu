@@ -36,8 +36,8 @@ Settings:
   ]
   sectionHeadings: [
     {label: "Core Settings", value: "기본설정"}
-    {label: "Editor Settings", value: "에디터설정"}
-    {label: "System Settings", value: "시스템설정"}
+    {label: "Editor Settings", value: "에디터 설정"}
+    {label: "System Settings", value: "시스템 설정"}
     {label: "Keybindings", value: "키바인딩"}
     {label: "Installed Packages", value: "패키지 설치"}
     {label: "Choose a Theme", value: "테마 고르기"}

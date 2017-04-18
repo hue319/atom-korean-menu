@@ -53,7 +53,7 @@ class PreferencesSettings
     unless PU.isAlreadyLocalized(info)
       info.querySelector('span:nth-child(2)').textContent = "키 바인딩"
       info.querySelector('span:nth-child(4)').textContent = "클릭하여 복사"
-      info.querySelector('a.link').textContent = "키맵파일"
+      info.querySelector('a.link').textContent = "키맵 파일"
       span = document.createElement('span')
       span.textContent = "붙여넣기 또는 취소 할 수 있습니다."
       info.appendChild(span)
@@ -87,7 +87,7 @@ class PreferencesSettings
     inst = document.querySelector('div.section:not(.themes-panel)')
     info = inst.querySelector('.native-key-bindings')
     unless PU.isAlreadyLocalized(info)
-      info.querySelector('span:nth-child(2)').textContent = "패키지 테마"
+      info.querySelector('span:nth-child(2)').textContent = " 패키지 테마"
       tc = info.querySelector('span:nth-child(4)')
       tc.textContent = tc.textContent.replace("and are installed to", "공개된 ")
       span = document.createElement('span')

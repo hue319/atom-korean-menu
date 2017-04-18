@@ -41,7 +41,7 @@ class Preferences
 
       window.KoreanMenu.pref.done = true
     catch e
-      console.error "한글화 작업이 올바르지 않습니다", e
+      console.error "한글화 작업이 온전하지 않습니다", e
 
   @applyFonts: () =>
     if process.platform == 'win32'
@@ -77,7 +77,7 @@ class Preferences
 
     # Left-side button
     ext = @sv.querySelector('.settings-view .icon-link-external')
-    PU.applyTextWithOrg ext, "설정보기"
+    PU.applyTextWithOrg ext, "설정 보기"
 
   applyInstallPanelOnSwitch = () ->
     PU.applySectionHeadings(true)
