@@ -474,6 +474,4 @@ Menu:
         value: "Atom에 관하여"
       "Welcome Guide":
         value: "환영합니다"
-  "File":
-    value: "파일(&F)"
 }
