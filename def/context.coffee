@@ -50,6 +50,8 @@ Context:
     "tabs:keep-pending-tab": "미리보기 해제"
   ".tab-bar":
     "pane:reopen-closed-item": "이전 탭 다시열기"
+  ".list-item.match-row":
+    "core:copy": "복사"
   ".tree-view.full-menu":
     "tree-view:add-file": "새 파일"
     "tree-view:add-folder": "새 폴더"

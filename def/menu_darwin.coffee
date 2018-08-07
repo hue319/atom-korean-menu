@@ -51,6 +51,8 @@ Menu:
         value: "경로 복사(&H)"
       "&Paste":
         value: "붙여넣기(&P)"
+      "Paste Without Reformatting":
+        value: "그대로 붙여넣기"
       "Select &All":
         value: "전체선택(&A)"
       "&Toggle Comments":
@@ -152,6 +154,10 @@ Menu:
             value: "다음 책갈피"
           "Jump to Previous Bookmark":
             value: "이전 책갈피"
+          "Select to Next Bookmark":
+            value: "다음책갈피까지 선택"
+          "Select to Previous Bookmark":
+            value: "이전책갈피까지 선택"
       "Select Encoding":
         value: "인코딩"
       "Go to Line":
@@ -199,6 +205,8 @@ Menu:
             value: "새로고침(&R)"
           "Run Package &Specs":
             value: "패키지스펙 실행(&S)"
+          "Run &Benchmarks":
+            value: "벤치마크(&B)"
           "Toggle Developer &Tools":
             value: "개발도구실행(&T)"
       "&Increase Font Size":
@@ -211,6 +219,10 @@ Menu:
         value: "소프트랩(&W)"
       "Toggle Command Palette":
         value: "명령팔레트"
+      "Toggle Git Tab":
+        value: "Git"
+      "Toggle GitHub Tab":
+        value: "GitHub"
       "Toggle Tree View":
         value: "트리"
   "&Selection":
@@ -294,7 +306,9 @@ Menu:
           "Close Current Tag":
             value: "태그 닫기"
           "Remove Matching Brackets":
-            value: "해당 괄호블럭 지우기"
+            value: "괄호블럭 지우기"
+          "Select Matching Brackets":
+            value: "괄호블럭 선택"
       "Command Palette":
         value: "명령 팔레트"
         submenu: 
@@ -314,6 +328,13 @@ Menu:
             value: "이전"
           "Toggle Diff List":
             value: "변경내역 토글"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Git탭 토글"
+          "Toggle GitHub Tab":
+            value: "GitHub탭 토글"
       "Keybinding Resolver":
         value: "키바인딩 Resolver"
         submenu:
@@ -324,6 +345,10 @@ Menu:
         submenu:
           "Toggle Preview":
             value: "미리보기 토글"
+          "Toggle Break on Single Newline":
+            value: "줄바꿈에서 멈춤"
+          "Toggle GitHub Style":
+            value: "GitHub 스타일"
       "Open On GitHub":
         value: "GitHub에서 열기"
         submenu:
@@ -341,6 +366,8 @@ Menu:
             value: "변경내역"
           "Issues":
             value: "이슈"
+          "Pull Requests":
+            value: "Pull 요청"
           "Repository":
             value: "저장소"
       "Package Generator":
@@ -417,13 +444,13 @@ Menu:
           "Save With Trailing Whitespace":
             value: "연속된 빈칸 허용 저장"
           "Save Without Trailing Whitespace":
-            value: "연속된 빈칸 없이 저장"
-          "Convert Taps To Spaces":
-            value: "탭을 스페이스로 바꾸기"
-          "Convert Spaces To Taps":
-            value: "스페이스를 탭으로 바꾸기"
-          "Convert All Taps To Spaces":
-            value: "모든 탭을 스페이스로 바꾸기"
+            value: "연속된 빈칸 유지 저장"
+          "Convert Tabs To Spaces":
+            value: "탭을 빈칸으로"
+          "Convert Spaces To Tabs":
+            value: "빈칸을 탭으로"
+          "Convert All Tabs To Spaces":
+            value: "모든 탭을 빈칸으로"
   "&Help":
     value: "도움말(&H)"
     submenu:
@@ -447,4 +474,6 @@ Menu:
         value: "Atom에 관하여"
       "Welcome Guide":
         value: "환영합니다"
+  "File":
+    value: "파일(&F)"
 }
