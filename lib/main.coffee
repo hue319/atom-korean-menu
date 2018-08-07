@@ -12,7 +12,7 @@ class KoreanMenu
     @defS = require "../def/settings"
 
   activate: (state) ->
-    setTimeout(@delay, 300)
+    setTimeout(@delay, 800)
 
   delay: () =>
     Menu.localize(@defM)
